@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o78" Code="RH_MngRoleRight" Name="RH_MngRoleRight" ShowCode="MngRoleRight" namespace="RH.Training" hasFK="False">
+    <column ID="o451" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o452" Code="RoleCode" Name="RoleCode" ShowCode="RoleCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o453" Code="MenuCode" Name="菜单code  对应RH_MngMenu" ShowCode="MenuCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o454" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o455" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

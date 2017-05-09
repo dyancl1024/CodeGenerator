@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o82" Code="RH_Org" Name="RH_Org" ShowCode="Org" namespace="RH.Training" hasFK="False">
+    <column ID="o468" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o469" Code="Name" Name="承担机构名称" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o470" Code="Code" Name="机构状态 1-正常 0-删除" ShowCode="Code" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o471" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+    <column ID="o472" Code="Status" Name="1:正常 2.删除" ShowCode="Status" DataType="int" Mandatory="True" />
+  </table>
+</tables>

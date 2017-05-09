@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o26" Code="RH_Country" Name="RH_Country" ShowCode="Country" namespace="RH.Training" hasFK="False">
+    <column ID="o247" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o248" Code="CountryName" Name="国家名" ShowCode="CountryName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o249" Code="CountryPY" Name="国家拼音" ShowCode="CountryPY" DataType="nvarchar(50)" Mandatory="False" />
+  </table>
+</tables>

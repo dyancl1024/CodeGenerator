@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o174" Code="RH_UserSubjectRule" Name="RH_UserSubjectRule" ShowCode="UserSubjectRule" namespace="RH.Training" hasFK="False">
+    <column ID="o974" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o975" Code="UserID" Name="用户id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o976" Code="GradeCode" Name="学段id" ShowCode="GradeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o977" Code="SubjectCode" Name="学科ID" ShowCode="SubjectCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o978" Code="TID" Name="子项目ID  一个学员在一个项目下只有一个学段学科" ShowCode="TID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

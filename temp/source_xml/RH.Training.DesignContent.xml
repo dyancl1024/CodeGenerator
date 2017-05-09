@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o58" Code="RH_DesignContent" Name="RH_DesignContent" ShowCode="DesignContent" namespace="RH.Training" hasFK="False">
+    <column ID="o385" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o386" Code="DesignID" Name="DesignID" ShowCode="DesignID" DataType="int" Mandatory="False" />
+    <column ID="o387" Code="DType" Name="1.需求分析 2.目标定位 3.内容设计 4.培训阶段 5.培训方式 6.考核评价 7.管理服务 8.培训课程 9.项目标书" ShowCode="DType" DataType="int" Mandatory="False" />
+    <column ID="o388" Code="DName" Name="1.需求分析 2.目标定位 3.内容设计 4.培训阶段 5.培训方式 6.考核评价 7.管理服务 8.培训课程 9.项目标书" ShowCode="DName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o389" Code="DContent" Name="DContent" ShowCode="DContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o390" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o391" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o392" Code="UpdateBy" Name="UpdateBy" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o393" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

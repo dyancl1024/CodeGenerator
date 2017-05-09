@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o158" Code="RH_TrainingStudyStatus" Name="RH_TrainingStudyStatus" ShowCode="TrainingStudyStatus" namespace="RH.Training" hasFK="False">
+    <column ID="o881" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o882" Code="PCID" Name="PCID" ShowCode="PCID" DataType="int" Mandatory="False" />
+    <column ID="o883" Code="CID" Name="课程ID" ShowCode="CID" DataType="int" Mandatory="False" />
+    <column ID="o884" Code="SubTID" Name="SubTID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o885" Code="Status" Name="课程学习状态：1学习中2.完成学习" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o886" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

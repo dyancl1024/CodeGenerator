@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o166" Code="RH_TrainingTeacherSummary" Name="RH_TrainingTeacherSummary" ShowCode="TrainingTeacherSummary" namespace="RH.Training" hasFK="False">
+    <column ID="o929" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o930" Code="TID" Name="总项目id" ShowCode="TID" DataType="int" Mandatory="False" />
+    <column ID="o931" Code="SubTID" Name="阶段项目id" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o932" Code="Ttype" Name="总结类型：1.辅导老师工作总结 2.项目总结（挂在总项目下，教务的操作）" ShowCode="Ttype" DataType="int" Mandatory="False" />
+    <column ID="o933" Code="TeacherSummaryTitle" Name="TeacherSummaryTitle" ShowCode="TeacherSummaryTitle" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o934" Code="TeacherSummaryContent" Name="TeacherSummaryContent" ShowCode="TeacherSummaryContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o935" Code="StaticUrl" Name="静态访问地址" ShowCode="StaticUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o936" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o937" Code="CreateTime" Name="发布时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o938" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o160" Code="RH_TrainingSub" Name="RH_TrainingSub" ShowCode="TrainingSub" namespace="RH.Training" hasFK="False">
+    <column ID="o888" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o889" Code="TID" Name="主项目ID" ShowCode="TID" DataType="int" Mandatory="False" />
+    <column ID="o890" Code="TName" Name="项目名称" ShowCode="TName" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o891" Code="TrainingNum" Name="项目名称" ShowCode="TrainingNum" DataType="int" Mandatory="False" />
+    <column ID="o892" Code="TrainingLevelCode" Name="承担机构id 对应表FJ_TrainingOrg的ID" ShowCode="TrainingLevelCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o893" Code="TrainingTypeCode" Name="TrainingTypeCode" ShowCode="TrainingTypeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o894" Code="TMethod" Name="研修方式：1.网络培训 2.现场培训 3.能力提升" ShowCode="TMethod" DataType="int" Mandatory="False" />
+    <column ID="o895" Code="IsGP" Name="是否国培 1 是 2 否" ShowCode="IsGP" DataType="int" Mandatory="False" />
+    <column ID="o896" Code="OrgCode" Name="OrgCode" ShowCode="OrgCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o897" Code="TrainingDateB" Name="时间安排起" ShowCode="TrainingDateB" DataType="datetime" Mandatory="False" />
+    <column ID="o898" Code="TrainingDateE" Name="时间安排止" ShowCode="TrainingDateE" DataType="datetime" Mandatory="False" />
+    <column ID="o899" Code="SignupRule" Name="报名规则：1.导入报名 2.自主报名" ShowCode="SignupRule" DataType="int" Mandatory="False" />
+    <column ID="o900" Code="ClassRule" Name="分班规则：1.规则分班 2.人工分班" ShowCode="ClassRule" DataType="nchar(10)" Mandatory="False" />
+    <column ID="o901" Code="IsStage" Name="是否阶段项目 1 是 2 否" ShowCode="IsStage" DataType="int" Mandatory="False" />
+    <column ID="o902" Code="TrainingUrl" Name="TrainingUrl" ShowCode="TrainingUrl" DataType="varchar(200)" Mandatory="False" />
+    <column ID="o903" Code="TrainingHeadImg" Name="TrainingHeadImg" ShowCode="TrainingHeadImg" DataType="varchar(200)" Mandatory="False" />
+    <column ID="o904" Code="StaticUrl" Name="StaticUrl" ShowCode="StaticUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o905" Code="Status" Name="1.待实施(对应动作填写实施方案) 2.待配课（对应动作申请配课） 3.配课中（对应动作配课完成） 4.待发布（对应动作发布） 5.已发布 6.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o906" Code="AskTel" Name="咨询电话" ShowCode="AskTel" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o907" Code="IsShowQQ" Name="是否显示在线客服 1 是 2 否" ShowCode="IsShowQQ" DataType="int" Mandatory="False" />
+    <column ID="o908" Code="TestMethod" Name="测评工具 1内部 2外部" ShowCode="TestMethod" DataType="int" Mandatory="False" />
+    <column ID="o909" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o910" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o911" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o912" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o913" Code="Publisher" Name="发布人" ShowCode="Publisher" DataType="int" Mandatory="False" />
+    <column ID="o914" Code="PublishDate" Name="发布时间" ShowCode="PublishDate" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

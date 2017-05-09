@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o36" Code="RH_CourseLevelRelation" Name="RH_CourseLevelRelation" ShowCode="CourseLevelRelation" namespace="RH.Training" hasFK="False">
+    <column ID="o295" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o296" Code="CourseID" Name="CourseID" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o297" Code="CourseLevel" Name="1初级2中级3高级" ShowCode="CourseLevel" DataType="int" Mandatory="False" />
+  </table>
+</tables>

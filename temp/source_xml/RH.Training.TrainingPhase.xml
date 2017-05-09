@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o150" Code="RH_TrainingPhase" Name="RH_TrainingPhase" ShowCode="TrainingPhase" namespace="RH.Training" hasFK="False">
+    <column ID="o843" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o844" Code="SubTID" Name="SubTID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o845" Code="PType" Name="1 课程学时 2.作业学时" ShowCode="PType" DataType="int" Mandatory="False" />
+    <column ID="o846" Code="HomeName" Name="作业名称" ShowCode="HomeName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o847" Code="HomeWorkDesc" Name="作业描述" ShowCode="HomeWorkDesc" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o848" Code="HomeWorkCode" Name="作业类型：表RH_TrainingHomeWorkType" ShowCode="HomeWorkCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o849" Code="Phase" Name="Phase" ShowCode="Phase" DataType="int" Mandatory="False" />
+    <column ID="o850" Code="CreateBy" Name="导入人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o851" Code="CreateTime" Name="导入时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o852" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o853" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

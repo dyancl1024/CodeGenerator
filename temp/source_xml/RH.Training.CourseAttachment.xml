@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o32" Code="RH_CourseAttachment" Name="RH_CourseAttachment" ShowCode="CourseAttachment" namespace="RH.Training" hasFK="False">
+    <column ID="o281" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o282" Code="CourseID" Name="CourseID" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o283" Code="AttachmentName" Name="AttachmentName" ShowCode="AttachmentName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o284" Code="AttachmentUrl" Name="AttachmentUrl" ShowCode="AttachmentUrl" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o285" Code="AttachmentType" Name="AttachmentType" ShowCode="AttachmentType" DataType="int" Mandatory="False" />
+    <column ID="o286" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o287" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

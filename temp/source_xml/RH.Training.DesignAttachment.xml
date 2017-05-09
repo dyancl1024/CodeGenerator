@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o54" Code="RH_DesignAttachment" Name="RH_DesignAttachment" ShowCode="DesignAttachment" namespace="RH.Training" hasFK="False">
+    <column ID="o371" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o372" Code="DesignID" Name="DesignID" ShowCode="DesignID" DataType="int" Mandatory="False" />
+    <column ID="o373" Code="AttachmentName" Name="AttachmentName" ShowCode="AttachmentName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o374" Code="AttachmentUrl" Name="AttachmentUrl" ShowCode="AttachmentUrl" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o375" Code="AttachmentType" Name="AttachmentType" ShowCode="AttachmentType" DataType="int" Mandatory="False" />
+    <column ID="o376" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o377" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

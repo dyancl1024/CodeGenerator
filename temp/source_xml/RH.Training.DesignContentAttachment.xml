@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o60" Code="RH_DesignContentAttachment" Name="RH_DesignContentAttachment" ShowCode="DesignContentAttachment" namespace="RH.Training" hasFK="False">
+    <column ID="o395" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o396" Code="DesignContentID" Name="DesignContentID" ShowCode="DesignContentID" DataType="int" Mandatory="False" />
+    <column ID="o397" Code="AttachementName" Name="AttachementName" ShowCode="AttachementName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o398" Code="AttachmentUrl" Name="AttachmentUrl" ShowCode="AttachmentUrl" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o399" Code="Version" Name="版本号：附件带版本号（系统自动编号），如：v1.0，2.0，按版本从高到低排序" ShowCode="Version" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o400" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o401" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

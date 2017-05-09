@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o16" Code="RH_AssessmentQuestionType" Name="RH_AssessmentQuestionType" ShowCode="AssessmentQuestionType" namespace="RH.Training" hasFK="False">
+    <column ID="o212" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o213" Code="TypeName" Name="问题类型" ShowCode="TypeName" DataType="nvarchar(50)" Mandatory="False" />
+  </table>
+</tables>

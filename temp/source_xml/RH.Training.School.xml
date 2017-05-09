@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o90" Code="RH_School" Name="RH_School" ShowCode="School" namespace="RH.Training" hasFK="False">
+    <column ID="o500" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o501" Code="DistrictID" Name="DistrictID" ShowCode="DistrictID" DataType="int" Mandatory="False" />
+    <column ID="o502" Code="SchoolName" Name="SchoolName" ShowCode="SchoolName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o503" Code="Status" Name="Status" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o504" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o505" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o506" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o507" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

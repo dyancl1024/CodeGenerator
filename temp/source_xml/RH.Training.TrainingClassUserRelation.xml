@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o116" Code="RH_TrainingClassUserRelation" Name="RH_TrainingClassUserRelation" ShowCode="TrainingClassUserRelation" namespace="RH.Training" hasFK="False">
+    <column ID="o692" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o693" Code="UserID" Name="用户id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o694" Code="ClassID" Name="工作坊id（班级）" ShowCode="ClassID" DataType="int" Mandatory="False" />
+    <column ID="o695" Code="SubTID" Name="项目id" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o696" Code="CreateBy" Name="导入人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o697" Code="CreateTime" Name="导入时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o698" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o699" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

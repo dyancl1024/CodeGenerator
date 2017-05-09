@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o108" Code="RH_TrainingBriefingComment" Name="RH_TrainingBriefingComment" ShowCode="TrainingBriefingComment" namespace="RH.Training" hasFK="False">
+    <column ID="o657" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o658" Code="TBID" Name="项目简报ID 对应RH_TrainingBriefing" ShowCode="TBID" DataType="int" Mandatory="False" />
+    <column ID="o659" Code="Comment" Name="评论内容" ShowCode="Comment" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o660" Code="IPAdress" Name="IP地址" ShowCode="IPAdress" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o661" Code="ParentID" Name="评论的父级ID" ShowCode="ParentID" DataType="int" Mandatory="False" />
+    <column ID="o662" Code="CreateBy" Name="评论人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o663" Code="CreateTime" Name="评论时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

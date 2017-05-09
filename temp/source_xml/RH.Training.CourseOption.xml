@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o38" Code="RH_CourseOption" Name="RH_CourseOption" ShowCode="CourseOption" namespace="RH.Training" hasFK="False">
+    <column ID="o299" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o300" Code="QuestionID" Name="QuestionID" ShowCode="QuestionID" DataType="int" Mandatory="False" />
+    <column ID="o301" Code="QOption" Name="QOption" ShowCode="QOption" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o302" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+    <column ID="o303" Code="IsRight" Name="是否标准答案1是2否" ShowCode="IsRight" DataType="int" Mandatory="False" />
+  </table>
+</tables>

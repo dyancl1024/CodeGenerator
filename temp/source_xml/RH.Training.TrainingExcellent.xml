@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o124" Code="RH_TrainingExcellent" Name="RH_TrainingExcellent" ShowCode="TrainingExcellent" namespace="RH.Training" hasFK="False">
+    <column ID="o735" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o736" Code="TID" Name="TID" ShowCode="TID" DataType="int" Mandatory="False" />
+    <column ID="o737" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o738" Code="Ttype" Name="项目评优表:1.学员2.辅导老师" ShowCode="Ttype" DataType="int" Mandatory="False" />
+    <column ID="o739" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o740" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o741" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o742" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

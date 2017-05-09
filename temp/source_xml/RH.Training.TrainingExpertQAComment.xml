@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o130" Code="RH_TrainingExpertQAComment" Name="RH_TrainingExpertQAComment" ShowCode="TrainingExpertQAComment" namespace="RH.Training" hasFK="False">
+    <column ID="o763" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o764" Code="QAID" Name="QAID" ShowCode="QAID" DataType="int" Mandatory="False" />
+    <column ID="o765" Code="Comment" Name="Comment" ShowCode="Comment" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o766" Code="IPAdress" Name="IPAdress" ShowCode="IPAdress" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o767" Code="ParentID" Name="ParentID" ShowCode="ParentID" DataType="int" Mandatory="False" />
+    <column ID="o768" Code="IsExpert" Name="是否专家回答 1.是 2.否" ShowCode="IsExpert" DataType="int" Mandatory="False" />
+    <column ID="o769" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o770" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

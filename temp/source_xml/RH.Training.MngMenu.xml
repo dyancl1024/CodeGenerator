@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o74" Code="RH_MngMenu" Name="RH_MngMenu" ShowCode="MngMenu" namespace="RH.Training" hasFK="False">
+    <column ID="o437" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o438" Code="MenuName" Name="菜单名字" ShowCode="MenuName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o439" Code="MenuUrl" Name="菜单路径" ShowCode="MenuUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o440" Code="MenuCode" Name="MenuCode" ShowCode="MenuCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o441" Code="MenuLevel" Name="菜单级别" ShowCode="MenuLevel" DataType="int" Mandatory="False" />
+    <column ID="o442" Code="MenuSort" Name="菜单排序" ShowCode="MenuSort" DataType="int" Mandatory="False" />
+    <column ID="o443" Code="Status" Name="状态：1.正常2.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o444" Code="ParentID" Name="父级菜单id" ShowCode="ParentID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

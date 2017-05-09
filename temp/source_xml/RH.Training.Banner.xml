@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o18" Code="RH_Banner" Name="RH_Banner" ShowCode="Banner" namespace="RH.Training" hasFK="False">
+    <column ID="o215" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o216" Code="ADTitle" Name="AD标题" ShowCode="ADTitle" DataType="nvarchar(200)" Mandatory="True" />
+    <column ID="o217" Code="AreaCode" Name="区域： 1- 区域1（图片），2-区域2（图片）  3-区域3（图片） 4-区域4...." ShowCode="AreaCode" DataType="varchar(50)" Mandatory="True" />
+    <column ID="o218" Code="ADPhotoUrl" Name="上传广告图片URL(由区域决定是否为图片广告)" ShowCode="ADPhotoUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o219" Code="ADContentType" Name="广告内容形式  1-编辑内容  2-链接URL" ShowCode="ADContentType" DataType="int" Mandatory="False" />
+    <column ID="o220" Code="ADContentURL" Name="内容链接URL" ShowCode="ADContentURL" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o221" Code="ADContent" Name="AD内容(存放编辑的内容或链接URL)" ShowCode="ADContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o222" Code="Status" Name="1-未发布 2-已发布  3-删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o223" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="True" />
+    <column ID="o224" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="True" />
+    <column ID="o225" Code="UpdateBy" Name="修改人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o226" Code="UpdateTime" Name="修改时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="True" />
+  </table>
+</tables>

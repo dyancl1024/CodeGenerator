@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o56" Code="RH_DesignBusiness" Name="RH_DesignBusiness" ShowCode="DesignBusiness" namespace="RH.Training" hasFK="False">
+    <column ID="o379" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o380" Code="DesignID" Name="DesignID" ShowCode="DesignID" DataType="int" Mandatory="False" />
+    <column ID="o381" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o382" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o383" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

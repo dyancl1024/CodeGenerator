@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o132" Code="RH_TrainingHomeWorkAttachment" Name="RH_TrainingHomeWorkAttachment" ShowCode="TrainingHomeWorkAttachment" namespace="RH.Training" hasFK="False">
+    <column ID="o772" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o773" Code="HomeWorkID" Name="HomeWorkID" ShowCode="HomeWorkID" DataType="int" Mandatory="False" />
+    <column ID="o774" Code="AttachmentName" Name="AttachmentName" ShowCode="AttachmentName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o775" Code="AttachmentUrl" Name="AttachmentUrl" ShowCode="AttachmentUrl" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o776" Code="AttachmentType" Name="1-文本 2-视频 3-图片 4-音频" ShowCode="AttachmentType" DataType="int" Mandatory="False" />
+    <column ID="o777" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o778" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

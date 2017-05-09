@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o50" Code="RH_CourseThemeRelation" Name="RH_CourseThemeRelation" ShowCode="CourseThemeRelation" namespace="RH.Training" hasFK="False">
+    <column ID="o348" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o349" Code="CourseID" Name="课程id" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o350" Code="CourseThemeCode" Name="能力提升课程代码" ShowCode="CourseThemeCode" DataType="varchar(50)" Mandatory="False" />
+  </table>
+</tables>

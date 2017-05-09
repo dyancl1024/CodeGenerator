@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o76" Code="RH_MngRole" Name="RH_MngRole" ShowCode="MngRole" namespace="RH.Training" hasFK="False">
+    <column ID="o446" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o447" Code="RoleName" Name="角色名称" ShowCode="RoleName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o448" Code="RoleCode" Name="角色代码" ShowCode="RoleCode" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o449" Code="SortNum" Name="角色排序" ShowCode="SortNum" DataType="int" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o72" Code="RH_GradeSubjectRelation" Name="RH_GradeSubjectRelation" ShowCode="GradeSubjectRelation" namespace="RH.Training" hasFK="False">
+    <column ID="o433" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o434" Code="GradeCode" Name="学段代码" ShowCode="GradeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o435" Code="SubjectCode" Name="学科code" ShowCode="SubjectCode" DataType="varchar(50)" Mandatory="False" />
+  </table>
+</tables>

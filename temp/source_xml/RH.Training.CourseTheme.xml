@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o48" Code="RH_CourseTheme" Name="RH_CourseTheme" ShowCode="CourseTheme" namespace="RH.Training" hasFK="False">
+    <column ID="o342" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o343" Code="Name" Name="Name" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o344" Code="Code" Name="Code" ShowCode="Code" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o345" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+    <column ID="o346" Code="Type" Name="1.应用信息技术优化课堂教学  2.应用信息技术转变学习方式" ShowCode="Type" DataType="int" Mandatory="False" />
+  </table>
+</tables>

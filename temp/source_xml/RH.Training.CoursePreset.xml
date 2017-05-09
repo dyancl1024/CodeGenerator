@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o40" Code="RH_CoursePreset" Name="RH_CoursePreset" ShowCode="CoursePreset" namespace="RH.Training" hasFK="False">
+    <column ID="o305" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o306" Code="Name" Name="Name" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o307" Code="CPDesc" Name="CPDesc" ShowCode="CPDesc" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o308" Code="IfPromote" Name="是否提升 1-是 0-否" ShowCode="IfPromote" DataType="int" Mandatory="False" />
+    <column ID="o309" Code="IsRequired" Name="是否必修 1.是 2否" ShowCode="IsRequired" DataType="int" Mandatory="False" />
+    <column ID="o310" Code="CourseLevel" Name="能力提升课程等级 1.初级 2.中级 3，高级" ShowCode="CourseLevel" DataType="int" Mandatory="False" />
+    <column ID="o311" Code="Dimension" Name="能力提升课程维度" ShowCode="Dimension" DataType="int" Mandatory="False" />
+    <column ID="o312" Code="Version" Name="版本号" ShowCode="Version" DataType="int" Mandatory="False" />
+    <column ID="o313" Code="parentID" Name="父套餐id，用于套餐复制" ShowCode="parentID" DataType="int" Mandatory="False" />
+    <column ID="o314" Code="Status" Name="状态：1-未发布 2-已发布 3 已删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o315" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o316" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o317" Code="UpdateBy" Name="UpdateBy" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o318" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

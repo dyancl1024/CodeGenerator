@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o44" Code="RH_CourseQuestion" Name="RH_CourseQuestion" ShowCode="CourseQuestion" namespace="RH.Training" hasFK="False">
+    <column ID="o324" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o325" Code="CourseID" Name="CourseID" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o326" Code="Question" Name="Question" ShowCode="Question" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o327" Code="QType" Name="1单选2多选3判断" ShowCode="QType" DataType="int" Mandatory="False" />
+    <column ID="o328" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+    <column ID="o329" Code="Status" Name="状态 1-未发布 2-已发布 3-删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o330" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o331" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o332" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o333" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

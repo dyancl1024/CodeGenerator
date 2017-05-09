@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o106" Code="RH_TrainingBriefing" Name="RH_TrainingBriefing" ShowCode="TrainingBriefing" namespace="RH.Training" hasFK="False">
+    <column ID="o644" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o645" Code="ObjectID" Name="项目id" ShowCode="ObjectID" DataType="int" Mandatory="False" />
+    <column ID="o646" Code="MType" Name="1.项目 2.班级" ShowCode="MType" DataType="int" Mandatory="False" />
+    <column ID="o647" Code="Periods" Name="期数 录入" ShowCode="Periods" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o648" Code="Title" Name="标题" ShowCode="Title" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o649" Code="BContnet" Name="内容" ShowCode="BContnet" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o650" Code="ClickNum" Name="ClickNum" ShowCode="ClickNum" DataType="int" Mandatory="False" />
+    <column ID="o651" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o652" Code="CreateTime" Name="发布时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o653" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o654" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o655" Code="StaticUrl" Name="StaticUrl" ShowCode="StaticUrl" DataType="nvarchar(200)" Mandatory="False" />
+  </table>
+</tables>

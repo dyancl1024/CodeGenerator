@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o98" Code="RH_Temp_BasicData_User" Name="RH_Temp_BasicData_User" ShowCode="Temp_BasicData_User" namespace="RH.Training" hasFK="False">
+    <column ID="o542" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o543" Code="SubTID" Name="SubTID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o544" Code="ClassID" Name="ClassID" ShowCode="ClassID" DataType="int" Mandatory="False" />
+    <column ID="o545" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o546" Code="Phase" Name="获得作业学时" ShowCode="Phase" DataType="int" Mandatory="False" />
+    <column ID="o547" Code="Q_jxfs" Name="Q_jxfs" ShowCode="Q_jxfs" DataType="int" Mandatory="False" />
+    <column ID="o548" Code="T_jxfs" Name="T_jxfs" ShowCode="T_jxfs" DataType="int" Mandatory="False" />
+    <column ID="o549" Code="F_jxfs" Name="F_jxfs" ShowCode="F_jxfs" DataType="int" Mandatory="False" />
+    <column ID="o550" Code="E_jxfs" Name="E_jxfs" ShowCode="E_jxfs" DataType="int" Mandatory="False" />
+    <column ID="o551" Code="Q_jxcl" Name="Q_jxcl" ShowCode="Q_jxcl" DataType="int" Mandatory="False" />
+    <column ID="o552" Code="T_jxcl" Name="T_jxcl" ShowCode="T_jxcl" DataType="int" Mandatory="False" />
+    <column ID="o553" Code="F_jxcl" Name="F_jxcl" ShowCode="F_jxcl" DataType="int" Mandatory="False" />
+    <column ID="o554" Code="E_jxcl" Name="E_jxcl" ShowCode="E_jxcl" DataType="int" Mandatory="False" />
+    <column ID="o555" Code="Q_xxxd" Name="Q_xxxd" ShowCode="Q_xxxd" DataType="int" Mandatory="False" />
+    <column ID="o556" Code="T_xxxd" Name="T_xxxd" ShowCode="T_xxxd" DataType="int" Mandatory="False" />
+    <column ID="o557" Code="F_xxxd" Name="F_xxxd" ShowCode="F_xxxd" DataType="int" Mandatory="False" />
+    <column ID="o558" Code="E_xxxd" Name="E_xxxd" ShowCode="E_xxxd" DataType="int" Mandatory="False" />
+    <column ID="o559" Code="Q_wtfx" Name="Q_wtfx" ShowCode="Q_wtfx" DataType="int" Mandatory="False" />
+    <column ID="o560" Code="T_wtfx" Name="T_wtfx" ShowCode="T_wtfx" DataType="int" Mandatory="False" />
+    <column ID="o561" Code="F_wtfx" Name="F_wtfx" ShowCode="F_wtfx" DataType="int" Mandatory="False" />
+    <column ID="o562" Code="E_wtfx" Name="E_wtfx" ShowCode="E_wtfx" DataType="int" Mandatory="False" />
+    <column ID="o563" Code="Q_yxrz" Name="Q_yxrz" ShowCode="Q_yxrz" DataType="int" Mandatory="False" />
+    <column ID="o564" Code="T_yxrz" Name="T_yxrz" ShowCode="T_yxrz" DataType="int" Mandatory="False" />
+    <column ID="o565" Code="F_yxrz" Name="F_yxrz" ShowCode="F_yxrz" DataType="int" Mandatory="False" />
+    <column ID="o566" Code="E_yxrz" Name="E_yxrz" ShowCode="E_yxrz" DataType="int" Mandatory="False" />
+    <column ID="o567" Code="Q_pxzj" Name="Q_pxzj" ShowCode="Q_pxzj" DataType="int" Mandatory="False" />
+    <column ID="o568" Code="T_pxzj" Name="T_pxzj" ShowCode="T_pxzj" DataType="int" Mandatory="False" />
+    <column ID="o569" Code="F_pxzj" Name="F_pxzj" ShowCode="F_pxzj" DataType="int" Mandatory="False" />
+    <column ID="o570" Code="E_pxzj" Name="E_pxzj" ShowCode="E_pxzj" DataType="int" Mandatory="False" />
+    <column ID="o571" Code="Finished" Name="作业是否完成" ShowCode="Finished" DataType="int" Mandatory="False" />
+    <column ID="o572" Code="GetCoursePhase" Name="获得课程学时" ShowCode="GetCoursePhase" DataType="int" Mandatory="False" />
+    <column ID="o573" Code="CoursePhase" Name="课程总学时" ShowCode="CoursePhase" DataType="int" Mandatory="False" />
+    <column ID="o574" Code="StatusName" Name="培训状态" ShowCode="StatusName" DataType="nvarchar(10)" Mandatory="False" />
+    <column ID="o575" Code="IsStudy" Name="是否学习" ShowCode="IsStudy" DataType="int" Mandatory="False" />
+    <column ID="o576" Code="HomeWorkPhase" Name="作业总学时" ShowCode="HomeWorkPhase" DataType="int" Mandatory="False" />
+  </table>
+</tables>

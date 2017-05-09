@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o22" Code="RH_BannerObject" Name="RH_BannerObject" ShowCode="BannerObject" namespace="RH.Training" hasFK="False">
+    <column ID="o236" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o237" Code="BannerID" Name="BannerID" ShowCode="BannerID" DataType="int" Mandatory="False" />
+    <column ID="o238" Code="ObjectID" Name="ObjectID" ShowCode="ObjectID" DataType="int" Mandatory="False" />
+    <column ID="o239" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="True" />
+    <column ID="o240" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="True" />
+  </table>
+</tables>

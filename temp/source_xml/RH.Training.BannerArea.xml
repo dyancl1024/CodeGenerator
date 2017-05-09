@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o20" Code="RH_BannerArea" Name="RH_BannerArea" ShowCode="BannerArea" namespace="RH.Training" hasFK="False">
+    <column ID="o228" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o229" Code="AreaCode" Name="广告区域编码" ShowCode="AreaCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o230" Code="AreaName" Name="AreaName" ShowCode="AreaName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o231" Code="AreaWidth" Name="AreaWidth" ShowCode="AreaWidth" DataType="int" Mandatory="False" />
+    <column ID="o232" Code="AreaHight" Name="AreaHight" ShowCode="AreaHight" DataType="int" Mandatory="False" />
+    <column ID="o233" Code="AreaType" Name="区域位置:  1-主项目页面 2-阶段项目页面 3-学习页面" ShowCode="AreaType" DataType="int" Mandatory="False" />
+    <column ID="o234" Code="AreaPicUrl" Name="广告位置指示效果图" ShowCode="AreaPicUrl" DataType="nvarchar(50)" Mandatory="False" />
+  </table>
+</tables>

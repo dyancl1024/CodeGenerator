@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o46" Code="RH_CourseSubject" Name="RH_CourseSubject" ShowCode="CourseSubject" namespace="RH.Training" hasFK="False">
+    <column ID="o335" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o336" Code="CourseID" Name="CourseID" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o337" Code="GradeCode" Name="GradeCode" ShowCode="GradeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o338" Code="SubjectCode" Name="SubjectCode" ShowCode="SubjectCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o339" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o340" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

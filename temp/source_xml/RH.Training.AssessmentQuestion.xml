@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o14" Code="RH_AssessmentQuestion" Name="RH_AssessmentQuestion" ShowCode="AssessmentQuestion" namespace="RH.Training" hasFK="False">
+    <column ID="o203" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o204" Code="AssessmentID" Name="测评工具id 对应RH_Assessment表id" ShowCode="AssessmentID" DataType="int" Mandatory="False" />
+    <column ID="o205" Code="Question" Name="题干" ShowCode="Question" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o206" Code="QuestionDesc" Name="题干描述" ShowCode="QuestionDesc" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o207" Code="TypeID" Name="题型 对应RH_AssessmentQuestionType表id" ShowCode="TypeID" DataType="int" Mandatory="False" />
+    <column ID="o208" Code="Dimensions" Name="课堂维度：1.课堂教学 2.学习方式" ShowCode="Dimensions" DataType="int" Mandatory="False" />
+    <column ID="o209" Code="SortNo" Name="排序" ShowCode="SortNo" DataType="int" Mandatory="False" />
+    <column ID="o210" Code="Status" Name="状态 0.未发布 1.发布" ShowCode="Status" DataType="int" Mandatory="False" />
+  </table>
+</tables>

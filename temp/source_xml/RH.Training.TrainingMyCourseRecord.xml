@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o142" Code="RH_TrainingMyCourseRecord" Name="RH_TrainingMyCourseRecord" ShowCode="TrainingMyCourseRecord" namespace="RH.Training" hasFK="False">
+    <column ID="o805" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o806" Code="UserID" Name="人员ID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o807" Code="SubTID" Name="项目id" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o808" Code="PCID" Name="套餐ID" ShowCode="PCID" DataType="int" Mandatory="False" />
+    <column ID="o809" Code="CourseID" Name="课程id" ShowCode="CourseID" DataType="int" Mandatory="False" />
+    <column ID="o810" Code="WatchTime" Name="当前已观看时间" ShowCode="WatchTime" DataType="int" Mandatory="False" />
+    <column ID="o811" Code="TotalWatchTime" Name="总共观看时间" ShowCode="TotalWatchTime" DataType="int" Mandatory="False" />
+    <column ID="o812" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o88" Code="RH_Province" Name="RH_Province" ShowCode="Province" namespace="RH.Training" hasFK="False">
+    <column ID="o494" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o495" Code="ProvinceName" Name="ProvinceName" ShowCode="ProvinceName" DataType="nvarchar(50)" Mandatory="True" />
+    <column ID="o496" Code="ProvincePY" Name="ProvincePY" ShowCode="ProvincePY" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o497" Code="CountyID" Name="CountyID" ShowCode="CountyID" DataType="int" Mandatory="False" />
+    <column ID="o498" Code="Status" Name="Status" ShowCode="Status" DataType="int" Mandatory="False" />
+  </table>
+</tables>

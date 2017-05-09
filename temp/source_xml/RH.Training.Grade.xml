@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o70" Code="RH_Grade" Name="RH_Grade" ShowCode="Grade" namespace="RH.Training" hasFK="False">
+    <column ID="o427" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o428" Code="Name" Name="Name" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o429" Code="Code" Name="Code" ShowCode="Code" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o430" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+    <column ID="o431" Code="ParentID" Name="0：大学段（如：小学） ，&lt;&gt;0:小学段（如小学1-6年级）" ShowCode="ParentID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

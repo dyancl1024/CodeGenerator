@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o10" Code="RH_AssessmentAnswerBak" Name="RH_AssessmentAnswerBak" ShowCode="AssessmentAnswerBak" namespace="RH.Training" hasFK="False">
+    <column ID="o189" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o190" Code="SubTID" Name="项目id" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o191" Code="UserID" Name="用户id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o192" Code="QID" Name="问题id" ShowCode="QID" DataType="int" Mandatory="False" />
+    <column ID="o193" Code="QType" Name="问题类型 问题类型  RH_AssessmentQuestionType表id" ShowCode="QType" DataType="int" Mandatory="False" />
+    <column ID="o194" Code="OptionID" Name="选项id  RH_AssessmentOptions表id" ShowCode="OptionID" DataType="int" Mandatory="False" />
+    <column ID="o195" Code="Score" Name="得分" ShowCode="Score" DataType="int" Mandatory="False" />
+  </table>
+</tables>

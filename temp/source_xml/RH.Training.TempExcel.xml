@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o100" Code="RH_TempExcel" Name="RH_TempExcel" ShowCode="TempExcel" namespace="RH.Training" hasFK="False">
+    <column ID="o582" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o583" Code="FileExcel" Name="FileExcel" ShowCode="FileExcel" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o584" Code="TableName" Name="TableName" ShowCode="TableName" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o585" Code="TempRemark" Name="TempRemark" ShowCode="TempRemark" DataType="nvarchar(100)" Mandatory="False" />
+  </table>
+</tables>

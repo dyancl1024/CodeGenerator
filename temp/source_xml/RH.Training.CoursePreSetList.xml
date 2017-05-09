@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o42" Code="RH_CoursePreSetList" Name="RH_CoursePreSetList" ShowCode="CoursePreSetList" namespace="RH.Training" hasFK="False">
+    <column ID="o320" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o321" Code="PreSetID" Name="PreSetID" ShowCode="PreSetID" DataType="int" Mandatory="False" />
+    <column ID="o322" Code="CourseID" Name="CourseID" ShowCode="CourseID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

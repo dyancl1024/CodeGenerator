@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o154" Code="RH_TrainingStudyGroupComment" Name="RH_TrainingStudyGroupComment" ShowCode="TrainingStudyGroupComment" namespace="RH.Training" hasFK="False">
+    <column ID="o865" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o866" Code="StudyGroupID" Name="StudyGroupID" ShowCode="StudyGroupID" DataType="int" Mandatory="False" />
+    <column ID="o867" Code="CommentTitile" Name="CommentTitile" ShowCode="CommentTitile" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o868" Code="Comment" Name="评论内容" ShowCode="Comment" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o869" Code="IPAdress" Name="IP地址" ShowCode="IPAdress" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o870" Code="ParentID" Name="评论的父级ID" ShowCode="ParentID" DataType="int" Mandatory="False" />
+    <column ID="o871" Code="IsExpert" Name="1.专家2.非专家" ShowCode="IsExpert" DataType="int" Mandatory="False" />
+    <column ID="o872" Code="CreateBy" Name="评论人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o873" Code="CreateTime" Name="评论时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

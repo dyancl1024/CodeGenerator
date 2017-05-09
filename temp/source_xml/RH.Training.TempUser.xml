@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o102" Code="RH_TempUser" Name="RH_TempUser" ShowCode="TempUser" namespace="RH.Training" hasFK="False">
+    <column ID="o587" Code="id" Name="id" ShowCode="id" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o588" Code="UserName" Name="UserName" ShowCode="UserName" DataType="varchar(50)" Mandatory="True" />
+    <column ID="o589" Code="Password" Name="Password" ShowCode="Password" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o590" Code="TrueName" Name="TrueName" ShowCode="TrueName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o591" Code="Gender" Name="Gender" ShowCode="Gender" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o592" Code="PicUrl" Name="PicUrl" ShowCode="PicUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o593" Code="Nation" Name="Nation" ShowCode="Nation" DataType="int" Mandatory="False" />
+    <column ID="o594" Code="IDNO" Name="IDNO" ShowCode="IDNO" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o595" Code="ProvinceID" Name="ProvinceID" ShowCode="ProvinceID" DataType="int" Mandatory="False" />
+    <column ID="o596" Code="CityID" Name="CityID" ShowCode="CityID" DataType="int" Mandatory="False" />
+    <column ID="o597" Code="DistrictID" Name="DistrictID" ShowCode="DistrictID" DataType="int" Mandatory="True" />
+    <column ID="o598" Code="Mobile" Name="Mobile" ShowCode="Mobile" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o599" Code="Email" Name="Email" ShowCode="Email" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o600" Code="QQ" Name="QQ" ShowCode="QQ" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o601" Code="IPAddr" Name="IPAddr" ShowCode="IPAddr" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o602" Code="IsChange" Name="IsChange" ShowCode="IsChange" DataType="int" Mandatory="False" />
+    <column ID="o603" Code="UserState" Name="UserState" ShowCode="UserState" DataType="int" Mandatory="False" />
+    <column ID="o604" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o605" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o606" Code="UpdateBy" Name="UpdateBy" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o607" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o608" Code="CUserName" Name="CUserName" ShowCode="CUserName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o609" Code="CPassword" Name="CPassword" ShowCode="CPassword" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o610" Code="GradeCode" Name="GradeCode" ShowCode="GradeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o611" Code="SubjectCode" Name="SubjectCode" ShowCode="SubjectCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o612" Code="SchoolID" Name="SchoolID" ShowCode="SchoolID" DataType="int" Mandatory="False" />
+    <column ID="o613" Code="SchoolName" Name="SchoolName" ShowCode="SchoolName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o614" Code="TempRemark" Name="TempRemark" ShowCode="TempRemark" DataType="nvarchar(100)" Mandatory="False" />
+    <column ID="o615" Code="TempUserID" Name="TempUserID" ShowCode="TempUserID" DataType="int" Mandatory="False" />
+    <column ID="o616" Code="TempClassName" Name="TempClassName" ShowCode="TempClassName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o617" Code="TempClassID" Name="TempClassID" ShowCode="TempClassID" DataType="int" Mandatory="False" />
+  </table>
+</tables>

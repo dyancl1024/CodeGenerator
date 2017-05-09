@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o86" Code="RH_Product" Name="RH_Product" ShowCode="Product" namespace="RH.Training" hasFK="False">
+    <column ID="o479" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o480" Code="ProductName" Name="ProductName" ShowCode="ProductName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o481" Code="ProductCode" Name="ProductCode" ShowCode="ProductCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o482" Code="ProductLevel" Name="产品级别 1.省 2. 市 3.区县" ShowCode="ProductLevel" DataType="int" Mandatory="False" />
+    <column ID="o483" Code="ProductUrl" Name="ProductUrl" ShowCode="ProductUrl" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o484" Code="Status" Name="1.正常 2.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o485" Code="ProvinceID" Name="ProvinceID" ShowCode="ProvinceID" DataType="int" Mandatory="False" />
+    <column ID="o486" Code="CityID" Name="CityID" ShowCode="CityID" DataType="int" Mandatory="False" />
+    <column ID="o487" Code="DistrictID" Name="DistrictID" ShowCode="DistrictID" DataType="int" Mandatory="False" />
+    <column ID="o488" Code="StaticUrl" Name="StaticUrl" ShowCode="StaticUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o489" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o490" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o491" Code="UpdateBy" Name="UpdateBy" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o492" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

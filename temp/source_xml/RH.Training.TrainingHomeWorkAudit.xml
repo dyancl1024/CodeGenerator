@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o134" Code="RH_TrainingHomeWorkAudit" Name="RH_TrainingHomeWorkAudit" ShowCode="TrainingHomeWorkAudit" namespace="RH.Training" hasFK="False">
+    <column ID="o780" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o781" Code="HomeWorkID" Name="HomeWorkID" ShowCode="HomeWorkID" DataType="int" Mandatory="False" />
+    <column ID="o782" Code="Auditor" Name="Auditor" ShowCode="Auditor" DataType="int" Mandatory="False" />
+    <column ID="o783" Code="AuditTime" Name="AuditTime" ShowCode="AuditTime" DataType="datetime" Mandatory="False" />
+    <column ID="o784" Code="AuditDesc" Name="审批意见" ShowCode="AuditDesc" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o785" Code="Status" Name="作业状态：1.待提交 2.待审批 3.不合格 4.合格 5.优秀 -不合格时（待提交）" ShowCode="Status" DataType="int" Mandatory="False" />
+  </table>
+</tables>

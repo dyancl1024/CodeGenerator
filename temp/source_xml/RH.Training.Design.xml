@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o52" Code="RH_Design" Name="RH_Design" ShowCode="Design" namespace="RH.Training" hasFK="False">
+    <column ID="o352" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o353" Code="DesignName" Name="社区id" ShowCode="DesignName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o354" Code="TrainingLevelCode" Name="承担机构id 对应表FJ_TrainingOrg的ID" ShowCode="TrainingLevelCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o355" Code="TrainingTypeCode" Name="TrainingTypeCode" ShowCode="TrainingTypeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o356" Code="ProvinceID" Name="ProvinceID" ShowCode="ProvinceID" DataType="int" Mandatory="False" />
+    <column ID="o357" Code="CityID" Name="CityID" ShowCode="CityID" DataType="int" Mandatory="False" />
+    <column ID="o358" Code="DistrictID" Name="DistrictID" ShowCode="DistrictID" DataType="int" Mandatory="False" />
+    <column ID="o359" Code="OrgCode" Name="OrgCode" ShowCode="OrgCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o360" Code="TrainingNum" Name="项目名称" ShowCode="TrainingNum" DataType="int" Mandatory="False" />
+    <column ID="o361" Code="TrainingPhase" Name="学时" ShowCode="TrainingPhase" DataType="int" Mandatory="False" />
+    <column ID="o362" Code="TrainingDateB" Name="时间安排起" ShowCode="TrainingDateB" DataType="datetime" Mandatory="False" />
+    <column ID="o363" Code="TrainingDateE" Name="时间安排止" ShowCode="TrainingDateE" DataType="datetime" Mandatory="False" />
+    <column ID="o364" Code="DesignDesc" Name="DesignDesc" ShowCode="DesignDesc" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o365" Code="Status" Name="1.待审批（对应的动作提交审批） 2.审批中（对应的动作通过、不通过，） 3.已审批（对应的动作立项、不立项） 4.不通过（对应的动作提交审批） 5.立项（对应的动作分配教务） 6.不立项（对应的动作分配教务）" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o366" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o367" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o368" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o369" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

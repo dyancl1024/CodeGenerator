@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o34" Code="RH_CourseCategory" Name="RH_CourseCategory" ShowCode="CourseCategory" namespace="RH.Training" hasFK="False">
+    <column ID="o289" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o290" Code="Name" Name="通识、技术、教研、科研、专业、技术素养、计划与准备、组织与管理、评估与诊断、组织与发展" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o291" Code="Code" Name="Code" ShowCode="Code" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o292" Code="Type" Name="课程类型：1非能力2能力" ShowCode="Type" DataType="int" Mandatory="False" />
+    <column ID="o293" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o24" Code="RH_City" Name="RH_City" ShowCode="City" namespace="RH.Training" hasFK="False">
+    <column ID="o242" Code="id" Name="id" ShowCode="id" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o243" Code="CityName" Name="CityName" ShowCode="CityName" DataType="nvarchar(50)" Mandatory="True" />
+    <column ID="o244" Code="CityPY" Name="CityPY" ShowCode="CityPY" DataType="varchar(50)" Mandatory="True" />
+    <column ID="o245" Code="ProvinceID" Name="ProvinceID" ShowCode="ProvinceID" DataType="int" Mandatory="True" />
+  </table>
+</tables>

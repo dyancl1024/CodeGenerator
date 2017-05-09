@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o94" Code="RH_Temp_BasicData_Class" Name="RH_Temp_BasicData_Class" ShowCode="Temp_BasicData_Class" namespace="RH.Training" hasFK="False">
+    <column ID="o514" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o515" Code="SubTID" Name="SubTID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o516" Code="ClassID" Name="ClassID" ShowCode="ClassID" DataType="int" Mandatory="False" />
+    <column ID="o517" Code="YX_HW" Name="优秀作业数量" ShowCode="YX_HW" DataType="int" Mandatory="False" />
+    <column ID="o518" Code="TJ_HW" Name="提交作业数量" ShowCode="TJ_HW" DataType="int" Mandatory="False" />
+    <column ID="o519" Code="StudyNum" Name="学习人数" ShowCode="StudyNum" DataType="int" Mandatory="False" />
+    <column ID="o520" Code="FinishedNum" Name="合格的人数" ShowCode="FinishedNum" DataType="int" Mandatory="False" />
+    <column ID="o521" Code="UserNum" Name="班级人数" ShowCode="UserNum" DataType="int" Mandatory="False" />
+    <column ID="o522" Code="ClassRate" Name="班级合格率" ShowCode="ClassRate" DataType="decimal(7,3)" Mandatory="False" />
+    <column ID="o523" Code="HG_HW" Name="合格作业数量（审批状态为合格和优秀）" ShowCode="HG_HW" DataType="int" Mandatory="False" />
+    <column ID="o524" Code="No_Num" Name="未审批作业数" ShowCode="No_Num" DataType="int" Mandatory="False" />
+  </table>
+</tables>

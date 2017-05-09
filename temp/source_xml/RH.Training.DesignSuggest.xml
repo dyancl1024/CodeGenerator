@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o64" Code="RH_DesignSuggest" Name="RH_DesignSuggest" ShowCode="DesignSuggest" namespace="RH.Training" hasFK="False">
+    <column ID="o410" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o411" Code="DesignID" Name="DesignID" ShowCode="DesignID" DataType="int" Mandatory="False" />
+    <column ID="o412" Code="DSuggest" Name="DSuggest" ShowCode="DSuggest" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o413" Code="Status" Name="1.待审批（对应的动作提交审批） 2.审批中（对应的动作通过、不通过，） 3.已审批（对应的动作立项、不立项） 4.立项（对应的动作分配教务） 5.不立项（对应的动作分配教务）" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o414" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o415" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

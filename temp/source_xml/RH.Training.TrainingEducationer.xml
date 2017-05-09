@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o122" Code="RH_TrainingEducationer" Name="RH_TrainingEducationer" ShowCode="TrainingEducationer" namespace="RH.Training" hasFK="False">
+    <column ID="o729" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o730" Code="DesignID" Name="阶段项目id" ShowCode="DesignID" DataType="int" Mandatory="False" />
+    <column ID="o731" Code="UserID" Name="用户id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o732" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o733" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

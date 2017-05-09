@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o170" Code="RH_User" Name="RH_User" ShowCode="User" namespace="RH.Training" hasFK="False">
+    <column ID="o945" Code="id" Name="id" ShowCode="id" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o946" Code="UserName" Name="UserName" ShowCode="UserName" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o947" Code="Password" Name="Password" ShowCode="Password" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o948" Code="TrueName" Name="TrueName" ShowCode="TrueName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o949" Code="Gender" Name="Gender" ShowCode="Gender" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o950" Code="PicUrl" Name="PicUrl" ShowCode="PicUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o951" Code="Nation" Name="Nation" ShowCode="Nation" DataType="int" Mandatory="False" />
+    <column ID="o952" Code="IDNO" Name="IDNO" ShowCode="IDNO" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o953" Code="ProvinceID" Name="ProvinceID" ShowCode="ProvinceID" DataType="int" Mandatory="False" />
+    <column ID="o954" Code="CityID" Name="CityID" ShowCode="CityID" DataType="int" Mandatory="False" />
+    <column ID="o955" Code="DistrictID" Name="DistrictID" ShowCode="DistrictID" DataType="int" Mandatory="False" />
+    <column ID="o956" Code="Mobile" Name="Mobile" ShowCode="Mobile" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o957" Code="Email" Name="Email" ShowCode="Email" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o958" Code="QQ" Name="QQ" ShowCode="QQ" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o959" Code="IPAddr" Name="IPAddr" ShowCode="IPAddr" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o960" Code="IsChange" Name="IsChange" ShowCode="IsChange" DataType="int" Mandatory="False" />
+    <column ID="o961" Code="UserState" Name="UserState" ShowCode="UserState" DataType="int" Mandatory="False" />
+    <column ID="o962" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o963" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o964" Code="UpdateBy" Name="UpdateBy" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o965" Code="UpdateTime" Name="UpdateTime" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

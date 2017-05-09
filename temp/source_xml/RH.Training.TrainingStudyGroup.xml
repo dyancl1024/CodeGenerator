@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o152" Code="RH_TrainingStudyGroup" Name="RH_TrainingStudyGroup" ShowCode="TrainingStudyGroup" namespace="RH.Training" hasFK="False">
+    <column ID="o855" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o856" Code="StudyGroupName" Name="学习小组名称" ShowCode="StudyGroupName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o857" Code="SubTID" Name="阶段项目ID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o858" Code="CID" Name="课程ID" ShowCode="CID" DataType="int" Mandatory="False" />
+    <column ID="o859" Code="Status" Name="状态：1.正常2.关闭" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o860" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o861" Code="CreateTime" Name="发布时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o862" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o863" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

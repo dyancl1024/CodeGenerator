@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o140" Code="RH_TrainingMyCourse" Name="RH_TrainingMyCourse" ShowCode="TrainingMyCourse" namespace="RH.Training" hasFK="False">
+    <column ID="o797" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o798" Code="SubTID" Name="项目id" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o799" Code="PCID" Name="套餐id，对应课程预设表" ShowCode="PCID" DataType="int" Mandatory="False" />
+    <column ID="o800" Code="CID" Name="课程id" ShowCode="CID" DataType="int" Mandatory="False" />
+    <column ID="o801" Code="UserID" Name="学员id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o802" Code="CreateTime" Name="选课时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o803" Code="Status" Name="选课状态：1.正常2.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+  </table>
+</tables>

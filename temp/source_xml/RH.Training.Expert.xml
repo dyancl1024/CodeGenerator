@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o68" Code="RH_Expert" Name="RH_Expert" ShowCode="Expert" namespace="RH.Training" hasFK="False">
+    <column ID="o422" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o423" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o424" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o425" Code="CreateTime" Name="CreateTime" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

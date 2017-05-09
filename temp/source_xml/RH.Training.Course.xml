@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o28" Code="RH_Course" Name="RH_Course" ShowCode="Course" namespace="RH.Training" hasFK="False">
+    <column ID="o251" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o252" Code="CourseName" Name="课程名称" ShowCode="CourseName" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o253" Code="CoursePharse" Name="课程学时" ShowCode="CoursePharse" DataType="int" Mandatory="False" />
+    <column ID="o254" Code="CourseCategoryCode" Name="1-通识 2-专业 3-技术 4-科研 5-教研" ShowCode="CourseCategoryCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o255" Code="CourseDesc" Name="CourseDesc" ShowCode="CourseDesc" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o256" Code="CourseUrl" Name="记录课程文件路径" ShowCode="CourseUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o257" Code="TeacherDesc" Name="讲师简介" ShowCode="TeacherDesc" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o258" Code="TeacherName" Name="讲师姓名" ShowCode="TeacherName" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o259" Code="TeacherTitle" Name="讲师职称" ShowCode="TeacherTitle" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o260" Code="CourseLabel" Name="课程标签" ShowCode="CourseLabel" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o261" Code="CourseCode" Name="课程代码" ShowCode="CourseCode" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o262" Code="IsPractice" Name="是否为实践性课程：1.是 2.否" ShowCode="IsPractice" DataType="int" Mandatory="False" />
+    <column ID="o263" Code="CourseCompany" Name="课程单位" ShowCode="CourseCompany" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o264" Code="CourseStyle" Name="课程形式" ShowCode="CourseStyle" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o265" Code="IsSpecialTeacher" Name="是否为一线教师教研员：1.是 2.否" ShowCode="IsSpecialTeacher" DataType="int" Mandatory="False" />
+    <column ID="o266" Code="VideoDuration" Name="学习时长" ShowCode="VideoDuration" DataType="int" Mandatory="False" />
+    <column ID="o267" Code="IsApp" Name="是否App： 1.是2.否" ShowCode="IsApp" DataType="int" Mandatory="False" />
+    <column ID="o268" Code="Status" Name="状态 1-未发布 2-已发布 3-删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o269" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o270" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o271" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o272" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

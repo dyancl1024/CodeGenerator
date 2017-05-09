@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o114" Code="RH_TrainingClassRule" Name="RH_TrainingClassRule" ShowCode="TrainingClassRule" namespace="RH.Training" hasFK="False">
+    <column ID="o684" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o685" Code="SubTID" Name="子项目ID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o686" Code="GradeCode" Name="学段代码" ShowCode="GradeCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o687" Code="SubjectCode" Name="学科code" ShowCode="SubjectCode" DataType="varchar(50)" Mandatory="False" />
+    <column ID="o688" Code="ClassNum" Name="ClassNum" ShowCode="ClassNum" DataType="int" Mandatory="False" />
+    <column ID="o689" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o690" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o156" Code="RH_TrainingStudyGroupUser" Name="RH_TrainingStudyGroupUser" ShowCode="TrainingStudyGroupUser" namespace="RH.Training" hasFK="False">
+    <column ID="o875" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o876" Code="StudyGroupID" Name="StudyGroupID" ShowCode="StudyGroupID" DataType="int" Mandatory="False" />
+    <column ID="o877" Code="UserID" Name="UserID" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o878" Code="Status" Name="1.正常2.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o879" Code="CreateTime" Name="发布时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

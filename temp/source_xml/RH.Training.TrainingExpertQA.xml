@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o128" Code="RH_TrainingExpertQA" Name="RH_TrainingExpertQA" ShowCode="TrainingExpertQA" namespace="RH.Training" hasFK="False">
+    <column ID="o753" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o754" Code="TID" Name="项目id" ShowCode="TID" DataType="int" Mandatory="False" />
+    <column ID="o755" Code="QATitle" Name="答疑标题" ShowCode="QATitle" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o756" Code="QAContent" Name="答疑内容" ShowCode="QAContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o757" Code="ClickNum" Name="点击率" ShowCode="ClickNum" DataType="int" Mandatory="False" />
+    <column ID="o758" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o759" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o760" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o761" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

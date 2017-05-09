@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o168" Code="RH_TrainingType" Name="RH_TrainingType" ShowCode="TrainingType" namespace="RH.Training" hasFK="False">
+    <column ID="o940" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o941" Code="Name" Name="Name" ShowCode="Name" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o942" Code="Code" Name="Code" ShowCode="Code" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o943" Code="Sort" Name="Sort" ShowCode="Sort" DataType="int" Mandatory="False" />
+  </table>
+</tables>

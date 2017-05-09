@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o80" Code="RH_MngUser" Name="RH_MngUser" ShowCode="MngUser" namespace="RH.Training" hasFK="False">
+    <column ID="o457" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o458" Code="UserName" Name="用户名" ShowCode="UserName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o459" Code="Password" Name="Password" ShowCode="Password" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o460" Code="TrueName" Name="真实姓名" ShowCode="TrueName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o461" Code="RoleID" Name="角色id  角色表" ShowCode="RoleID" DataType="int" Mandatory="False" />
+    <column ID="o462" Code="Status" Name="状态：1.正常 2.删除" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o463" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o464" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o465" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o466" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

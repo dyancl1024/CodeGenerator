@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o6" Code="RH_Assessment" Name="RH_Assessment" ShowCode="Assessment" namespace="RH.Training" hasFK="False">
+    <column ID="o176" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o177" Code="AName" Name="测评工具名称" ShowCode="AName" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o178" Code="ADesc" Name="评测描述" ShowCode="ADesc" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o179" Code="Status" Name="0.未发布  1.已发布" ShowCode="Status" DataType="int" Mandatory="False" />
+  </table>
+</tables>

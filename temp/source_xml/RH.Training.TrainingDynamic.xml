@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o120" Code="RH_TrainingDynamic" Name="RH_TrainingDynamic" ShowCode="TrainingDynamic" namespace="RH.Training" hasFK="False">
+    <column ID="o713" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o714" Code="ObjectID" Name="社区ID" ShowCode="ObjectID" DataType="int" Mandatory="False" />
+    <column ID="o715" Code="MType" Name="类型：1.项目 2.班级" ShowCode="MType" DataType="int" Mandatory="False" />
+    <column ID="o716" Code="DyTitle" Name="动态标题" ShowCode="DyTitle" DataType="nvarchar(100)" Mandatory="False" />
+    <column ID="o717" Code="DyType" Name="动态类型 1-文字 2-图片 3.链接类型 （无点击率）" ShowCode="DyType" DataType="int" Mandatory="False" />
+    <column ID="o718" Code="DyContent" Name="内容" ShowCode="DyContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o719" Code="DyLink" Name="当DyType为3链接时 存放link url" ShowCode="DyLink" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o720" Code="DyPicUrl" Name="当DyType为2图片和图片广告4时 存放图片的 url" ShowCode="DyPicUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o721" Code="DState" Name="动态状态 1-正常 2-删除" ShowCode="DState" DataType="int" Mandatory="False" />
+    <column ID="o722" Code="CilckNum" Name="点击率" ShowCode="CilckNum" DataType="int" Mandatory="False" />
+    <column ID="o723" Code="StaticUrl" Name="StaticUrl" ShowCode="StaticUrl" DataType="nvarchar(200)" Mandatory="False" />
+    <column ID="o724" Code="CreateBy" Name="创建人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o725" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+    <column ID="o726" Code="UpdateBy" Name="更新人" ShowCode="UpdateBy" DataType="int" Mandatory="False" />
+    <column ID="o727" Code="UpdateTime" Name="更新时间" ShowCode="UpdateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o172" Code="RH_UserInfo" Name="RH_UserInfo" ShowCode="UserInfo" namespace="RH.Training" hasFK="False">
+    <column ID="o967" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o968" Code="UserID" Name="人id" ShowCode="UserID" DataType="int" Mandatory="False" />
+    <column ID="o969" Code="SchoolID" Name="学校ID" ShowCode="SchoolID" DataType="int" Mandatory="False" />
+    <column ID="o970" Code="CUserName" Name="接口用户名" ShowCode="CUserName" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o971" Code="CPassword" Name="CPassword" ShowCode="CPassword" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o972" Code="CSource" Name="CSource" ShowCode="CSource" DataType="int" Mandatory="False" />
+  </table>
+</tables>

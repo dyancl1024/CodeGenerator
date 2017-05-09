@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o144" Code="RH_TrainingMyHomeWork" Name="RH_TrainingMyHomeWork" ShowCode="TrainingMyHomeWork" namespace="RH.Training" hasFK="False">
+    <column ID="o814" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o815" Code="HomeWorkTitle" Name="作业标题" ShowCode="HomeWorkTitle" DataType="nvarchar(50)" Mandatory="False" />
+    <column ID="o816" Code="HomeWorkContent" Name="作业内容" ShowCode="HomeWorkContent" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o817" Code="HomeWorkPhaseID" Name="作业指标ID  RH_TrainingPhase" ShowCode="HomeWorkPhaseID" DataType="int" Mandatory="False" />
+    <column ID="o818" Code="SubTID" Name="阶段项目ID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o819" Code="Status" Name="作业状态：1.待提交 2.待审批 3.不合格 4.合格 5.优秀 -不合格时（待提交）" ShowCode="Status" DataType="int" Mandatory="False" />
+    <column ID="o820" Code="CreateBy" Name="导入人" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o821" Code="CreateTime" Name="导入时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

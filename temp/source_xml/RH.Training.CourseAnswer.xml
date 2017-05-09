@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o30" Code="RH_CourseAnswer" Name="RH_CourseAnswer" ShowCode="CourseAnswer" namespace="RH.Training" hasFK="False">
+    <column ID="o274" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o275" Code="QuestionID" Name="QuestionID" ShowCode="QuestionID" DataType="int" Mandatory="False" />
+    <column ID="o276" Code="OptionID" Name="OptionID" ShowCode="OptionID" DataType="int" Mandatory="False" />
+    <column ID="o277" Code="IsRight" Name="IsRight" ShowCode="IsRight" DataType="int" Mandatory="False" />
+    <column ID="o278" Code="CreateBy" Name="CreateBy" ShowCode="CreateBy" DataType="int" Mandatory="False" />
+    <column ID="o279" Code="CreateTime" Name="创建时间" ShowCode="CreateTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

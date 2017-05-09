@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o96" Code="RH_Temp_BasicData_TrainingSub" Name="RH_Temp_BasicData_TrainingSub" ShowCode="Temp_BasicData_TrainingSub" namespace="RH.Training" hasFK="False">
+    <column ID="o529" Code="ID" Name="ID" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o530" Code="tid" Name="tid" ShowCode="tid" DataType="int" Mandatory="False" />
+    <column ID="o531" Code="SubTID" Name="SubTID" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o532" Code="TeacherNum" Name="TeacherNum" ShowCode="TeacherNum" DataType="int" Mandatory="False" />
+    <column ID="o533" Code="ClassNum" Name="班级数量" ShowCode="ClassNum" DataType="int" Mandatory="False" />
+    <column ID="o534" Code="FinishedNum" Name="合格人数" ShowCode="FinishedNum" DataType="int" Mandatory="False" />
+    <column ID="o535" Code="StudyNum" Name="学习人数" ShowCode="StudyNum" DataType="int" Mandatory="False" />
+    <column ID="o536" Code="UserNum" Name="学员总数" ShowCode="UserNum" DataType="int" Mandatory="False" />
+    <column ID="o537" Code="FinishedRate" Name="合格率" ShowCode="FinishedRate" DataType="decimal(6,2)" Mandatory="False" />
+    <column ID="o538" Code="StudyRate" Name="学习率" ShowCode="StudyRate" DataType="decimal(6,2)" Mandatory="False" />
+  </table>
+</tables>

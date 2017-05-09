@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o112" Code="RH_TrainingClassOfTeacher" Name="RH_TrainingClassOfTeacher" ShowCode="TrainingClassOfTeacher" namespace="RH.Training" hasFK="False">
+    <column ID="o677" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o678" Code="SubTID" Name="班级id  RH_Class" ShowCode="SubTID" DataType="int" Mandatory="False" />
+    <column ID="o679" Code="ClassID" Name="ClassID" ShowCode="ClassID" DataType="int" Mandatory="False" />
+    <column ID="o680" Code="TeacherID" Name="辅导老师id RH_User表" ShowCode="TeacherID" DataType="int" Mandatory="False" />
+    <column ID="o681" Code="Appointer" Name="任命人 对应RH_User表id" ShowCode="Appointer" DataType="int" Mandatory="False" />
+    <column ID="o682" Code="AppointTime" Name="任命时间" ShowCode="AppointTime" DataType="datetime" Mandatory="False" />
+  </table>
+</tables>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6528BD7E-8C8D-4774-A363-BFB5E77CDD12}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReaderPDM</RootNamespace>
+    <AssemblyName>ReaderPDM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="js\jquery-1.7.2.js" />
+    <Content Include="js\jquery-1.8.0.min.js" />
+    <Content Include="template\xsl_dao\Dao.cs.xsl" />
+    <Content Include="template\xsl_page\Edit.aspx.xsl" />
+    <Content Include="template\xsl_dao\Entity.cs.xsl" />
+    <Content Include="template\xsl_dao\Logic.cs.xsl" />
+    <Content Include="template\xsl_dao\Biz.cs.xsl" />
+    <Content Include="template\xsl_entity\TestEntity.cs.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="template\xsl_dao\Util.cs.xsl" />
+    <Content Include="template\xsl_page\Edit.aspx.cs.xsl" />
+    <Content Include="template\xsl_entity\entity.xsl" />
+    <Content Include="template\xsl_entity\entity_java.xsl" />
+    <Content Include="template\xsl_sjxx\Entity.cs.xsl" />
+    <Content Include="template\xsl_sjxx\BL.cs.xsl" />
+    <Content Include="template\xsl_sjxx\DB.cs.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\Add.sql.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\BL.cs.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\DB.cs.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="template\xsl_sjxx_mysql\Detail.sql.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="template\xsl_sjxx_mysql\Entity.cs.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\List.sql.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\Modify.sql.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\Remove.sql.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\Searcher.cs.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\SearchResult.cs.xsl" />
+    <Content Include="template\xsl_sjxx_mysql\Controller.cs.xsl" />
+    <Content Include="template\xsl_tool\brfunc.xsl" />
+    <Content Include="Test\TestPDM.aspx" />
+    <Content Include="Test\TestPdm.xml" />
+    <Content Include="Web.config" />
+    <Content Include="XML\XMLForTree.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDM\ColumnInfo.cs" />
+    <Compile Include="PDM\PdmKey.cs" />
+    <Compile Include="PDM\PdmReader.cs" />
+    <Compile Include="PDM\PKInfo.cs" />
+    <Compile Include="PDM\ReferenceInfo.cs" />
+    <Compile Include="PDM\TableInfo.cs" />
+    <Compile Include="PDM\FKInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\TestPDM.aspx.cs">
+      <DependentUpon>TestPDM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test\TestPDM.aspx.designer.cs">
+      <DependentUpon>TestPDM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XML\ToWord.cs" />
+    <Compile Include="XML\ToXml.cs" />
+    <Compile Include="XML\XMLForTree.aspx.cs">
+      <DependentUpon>XMLForTree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XML\XMLForTree.aspx.designer.cs">
+      <DependentUpon>XMLForTree.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="temp\source_xml\" />
+    <Folder Include="temp\tempfolder\cn\infocell\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5607</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

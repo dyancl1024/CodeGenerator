@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tables>
+  <table ID="o12" Code="RH_AssessmentOptions" Name="RH_AssessmentOptions" ShowCode="AssessmentOptions" namespace="RH.Training" hasFK="False">
+    <column ID="o197" Code="ID" Name="主键" ShowCode="ID" DataType="int" Mandatory="True" PK="True" />
+    <column ID="o198" Code="QID" Name="问题id" ShowCode="QID" DataType="int" Mandatory="False" />
+    <column ID="o199" Code="Options" Name="选项" ShowCode="Options" DataType="nvarchar(Max)" Mandatory="False" />
+    <column ID="o200" Code="SortNO" Name="排序" ShowCode="SortNO" DataType="int" Mandatory="False" />
+    <column ID="o201" Code="Score" Name="分值  1.1分 2.2分 3.3分" ShowCode="Score" DataType="int" Mandatory="False" />
+  </table>
+</tables>
